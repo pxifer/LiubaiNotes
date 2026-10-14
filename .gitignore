@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+node_modules/
+build/
+release/
+*.log
+*.map
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+coverage/
+

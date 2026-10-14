@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "留白笔记",
+  "version": "1.0.0",
+  "description": "无需登录、仅保存在当前 Microsoft Edge 中的个人笔记工具。",
+  "action": {
+    "default_title": "打开留白笔记",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": []
+}
